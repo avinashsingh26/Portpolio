@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Grades page with a styled responsive table.">
+  <title>Resume Website | Grades</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <div class="brand-mark"><span class="brand-badge">R</span>Resume Website</div>
+      <h1>Student Portfolio</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="courses-flex.html">Courses Flex</a>
+      <a href="courses-grid.html">Courses Grid</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="grades.html" aria-current="page">Grades</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page page-shell">
+    <section class="hero">
+      <p class="badge">Grades</p>
+      <h1>Academic Progress at a Glance</h1>
+      <p>
+        The table below uses clear column headings, alternating row colors, and hover feedback to make
+        the information easy to scan.
+      </p>
+    </section>
+
+    <section class="section-card">
+      <div class="stats-grid">
+        <article class="grade-summary">
+          <strong>A</strong>
+          <h3>Web Design</h3>
+          <p>Strong visual presentation and strong layout consistency.</p>
+        </article>
+        <article class="grade-summary">
+          <strong>B+</strong>
+          <h3>Front-End Basics</h3>
+          <p>Good understanding of structure, spacing, and styling practice.</p>
+        </article>
+        <article class="grade-summary">
+          <strong>A-</strong>
+          <h3>Responsive UI</h3>
+          <p>Responsive cards and fluid sections handled with confidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="table-panel">
+      <div class="table-wrap">
+        <table>
+          <caption>Semester Grade Summary</caption>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Credits</th>
+              <th>Marks</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML &amp; CSS</td>
+              <td>4</td>
+              <td>92</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>UI Design Basics</td>
+              <td>3</td>
+              <td>88</td>
+              <td>A-</td>
+            </tr>
+            <tr>
+              <td>Responsive Layouts</td>
+              <td>3</td>
+              <td>90</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Project Presentation</td>
+              <td>2</td>
+              <td>85</td>
+              <td>B+</td>
+            </tr>
+            <tr>
+              <td>Feedback &amp; Iteration</td>
+              <td>2</td>
+              <td>91</td>
+              <td>A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>Table styling uses collapse, striping, hover feedback, and a clear caption.</footer>
+</body>
+</html>

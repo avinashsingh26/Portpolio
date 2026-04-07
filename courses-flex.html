@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Courses page using a responsive flexbox layout.">
+  <title>Resume Website | Courses Flex</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <div class="brand-mark"><span class="brand-badge">R</span>Resume Website</div>
+      <h1>Student Portfolio</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="courses-flex.html" aria-current="page">Courses Flex</a>
+      <a href="courses-grid.html">Courses Grid</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="grades.html">Grades</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page page-shell">
+    <section class="hero">
+      <p class="badge">Flexbox</p>
+      <h1>Courses That Stretch and Wrap Beautifully</h1>
+      <p>
+        This page uses flexbox to keep course cards balanced across screen sizes. Each card behaves
+        like a small module with its own title, description, and action button.
+      </p>
+    </section>
+
+    <section class="section-card">
+      <h2 class="section-title">Course Cards</h2>
+      <ul class="course-flex-list">
+        <li class="course-card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80" alt="Laptop showing code on a screen">
+          <span class="course-meta">HTML</span>
+          <h3>HTML Structure</h3>
+          <p>Learn semantic tags, page sections, headings, lists, and content hierarchy for strong page structure.</p>
+          <a class="button button-secondary" href="feedback.html">Read More</a>
+        </li>
+        <li class="course-card">
+          <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&w=900&q=80" alt="Designer workspace with code and color tools">
+          <span class="course-meta">CSS</span>
+          <h3>CSS Styling</h3>
+          <p>Practice colors, spacing, box model, border radius, shadows, and responsive presentation.</p>
+          <a class="button button-secondary" href="feedback.html">Read More</a>
+        </li>
+        <li class="course-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Developer working on GitHub related code">
+          <span class="course-meta">GitHub</span>
+          <h3>GitHub Workflow</h3>
+          <p>Understand repositories, commits, branches, pushes, and collaboration for project tracking.</p>
+          <a class="button button-secondary" href="feedback.html">Read More</a>
+        </li>
+        <li class="course-card">
+          <img src="https://images.unsplash.com/photo-1527474305487-b87b222841cc?auto=format&fit=crop&w=900&q=80" alt="Flowchart sketched on a glass board">
+          <span class="course-meta">Flowchart</span>
+          <h3>Flowchart Planning</h3>
+          <p>Map logic, decision paths, and process steps before building a page or app.</p>
+          <a class="button button-secondary" href="feedback.html">Read More</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>Flex layout keeps the course cards consistent while adapting to smaller screens.</footer>
+</body>
+</html>

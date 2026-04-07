@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Feedback form page with styled inputs and clear call to action.">
+  <title>Resume Website | Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <div class="brand-mark"><span class="brand-badge">R</span>Resume Website</div>
+      <h1>Student Portfolio</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="courses-flex.html">Courses Flex</a>
+      <a href="courses-grid.html">Courses Grid</a>
+      <a href="feedback.html" aria-current="page">Feedback</a>
+      <a href="grades.html">Grades</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="page page-shell">
+    <section class="hero">
+      <p class="badge">Feedback</p>
+      <h1>Share Your Thoughts</h1>
+      <p>
+        This form is styled for usability with clear labels, comfortable spacing, and strong visual
+        feedback on focus and hover states.
+      </p>
+    </section>
+
+    <section class="form-panel">
+      <h2 class="section-title">Feedback Form</h2>
+      <div class="feedback-grid">
+        <form>
+          <div class="input-row">
+            <div>
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name">
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com">
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div>
+              <label for="topic">What are you reviewing?</label>
+              <select id="topic" name="topic">
+                <option>Home Page</option>
+                <option>Profile Page</option>
+                <option>Courses Flex</option>
+                <option>Courses Grid</option>
+                <option>Grades Table</option>
+              </select>
+            </div>
+            <div>
+              <label for="rating">Rating</label>
+              <select id="rating" name="rating">
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Needs Improvement</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="message">Your Feedback</label>
+            <textarea id="message" name="message" placeholder="Write your comments here..."></textarea>
+          </div>
+
+          <div>
+            <label>Preferred Contact</label>
+            <div class="radio-row">
+              <label><input type="radio" name="contact-method" checked> Email</label>
+              <label><input type="radio" name="contact-method"> Phone</label>
+              <label><input type="radio" name="contact-method"> No reply needed</label>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit">Submit Feedback</button>
+            <a class="button button-secondary" href="contact.html">Need help?</a>
+          </div>
+        </form>
+
+        <aside class="detail-card">
+          <h3>Why this form works</h3>
+          <p>
+            Labels sit above controls, fields stretch to the container width, and the layout stays easy
+            to use on smaller screens.
+          </p>
+          <ul>
+            <li>Readable spacing and consistent control sizing</li>
+            <li>Clear focus state for keyboard users</li>
+            <li>Simple visual hierarchy for faster completion</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer>Form styling focuses on clarity, spacing, and responsive usability.</footer>
+</body>
+</html>
